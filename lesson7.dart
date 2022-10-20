@@ -1,5 +1,5 @@
-void main() {
 
+void main() {
   // task 1. Выведите столбец чисел от 1 до 100.
 
   int a = 1;
@@ -21,7 +21,22 @@ void main() {
   int c = 0;
   while (c <= 100) {
     c++;
-    if (c.isEven) print(c);
+    if (c.isEven) 
+    print(c);
+  }
+
+  int c1 = 0;
+
+  while (c1 <= 100) {
+    c1++;
+    if (c1 % 2 == 0) {
+    print(c1);
+    }
+  }
+
+  for (int i = 2; i <= 100; i++) {
+    if (i % 2 == 0) 
+    print(i);
   }
 
 // task 4. С помощью цикла найдите сумму чисел от 1 до 100.
@@ -32,8 +47,8 @@ void main() {
     sum += i;
     i++;
   }
-
   print(sum);
+
 
   int sum1 = 0;
 
